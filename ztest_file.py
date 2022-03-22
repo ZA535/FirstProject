@@ -1,20 +1,20 @@
 from test_file import Box
 from msilib.schema import File
 
-# import json
-#
-# file_data = ''
-# with open("user_account_details.txt", 'r') as nf:
-#    print( nf.read())
-# lines = file_data.split('\n')
-# user_data = []
-# for line in lines:
-#     d = line.split(',')
-#     user_data.append({
-#         'Name': d[0],
-#         'Age': d[1],
-#         'Year': d[2]
-#     })
+import json
+
+file_data = ''
+with open("user_account_details.txt", 'r') as nf:
+   print( nf.read())
+lines = file_data.split('\n')
+user_data = []
+for line in lines:
+    d = line.split(',')
+    user_data.append({
+        'Name': d[0],
+        'Age': d[1],
+        'Year': d[2]
+    })
 # json_data = json.dumps(user_data)
 # with open('user_account_details.json', 'w') as nf:
 #     nf.write(json_data)
