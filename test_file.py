@@ -9,3 +9,5 @@ class Box:
         return "class BOX Object X={} Y={}".format(self.x,self.y)
     def fun(self,):
         print("Hi is Programming .")
+
+#classes in python
